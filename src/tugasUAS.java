@@ -9,10 +9,9 @@ public class tugasUAS {
 
         int[] bebanLantai = {2000, 1800, 1500};
 
-        System.out.println("Selamat datang di Parkiran Apartemen!");
 
         while (true) {
-            System.out.print("Masukkan besarnya kapasitas mesin (CC) kendaraan: ");
+            System.out.print("Masukkan besarnya kapasitas mesin: ");
             int kapasitasMesin = scanner.nextInt();
 
             int lantaiTujuan = tentukanLantai(kapasitasMesin);
@@ -35,7 +34,7 @@ public class tugasUAS {
             }
         }
 
-        System.out.println("Terima kasih telah menggunakan Parkiran Apartemen!");
+        System.out.println("Terima kasih telah parkir disini!");
     }
 
     private static int tentukanLantai(int kapasitasMesin) {
